@@ -39,13 +39,16 @@ body {
 .brand-block {
   display: flex;
   align-items: center;
+  height: 42 px;
 }
 
 .brand-logo img {
-  height: 42px;   /* visible size */
+  height: 36px;   /* visible size */
   width: auto;
   display: block;
-  margin-right: 5px;
+  margin-right: 8px;
+  opacity: 0.85;
+  mix-blend-mode: multiply;
 }
 
 .brand-text h2 {
@@ -73,6 +76,8 @@ body {
   font-size: 15px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
+  padding: 10px 20px;
+  color: #999;
 }
 
 
