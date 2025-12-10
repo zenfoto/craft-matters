@@ -42,9 +42,10 @@ body {
 }
 
 .brand-logo img {
-  height: 36px;   /* visible size */
+  height: 42px;   /* visible size */
   width: auto;
   display: block;
+  margin-right: 5px;
 }
 
 .brand-text h2 {
@@ -59,7 +60,7 @@ body {
   font-family: "karmina-sans", sans-serif;
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: 6px;
+  letter-spacing: 2px;
   text-transform: uppercase;
   color: #696969;
 }
