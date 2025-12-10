@@ -35,12 +35,31 @@ body {
   align-items: center;
 }
 
-/* Brand text on the left */
-.brand a {
-  font-size: 1.8rem;
+/* ----- Left brand block (logo + h2 + span) ----- */
+.brand-block {
+  display: flex;
+  align-items: center;
+}
+
+.brand-logo {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.brand-text h2 {
+  font-size: 1.6rem;
   font-weight: 700;
-  text-decoration: none;
+  margin: 0;
   color: #111;
+}
+
+.brand-text span {
+  display: block;
+  font-size: 0.9rem;
+  color: #444;
+  margin-top: 2px;
+  letter-spacing: 0.5px;
 }
 
 /* Navigation links on the right */
@@ -54,7 +73,7 @@ body {
 
 
 nav a:hover {
-  color: #000;
+  color: #999;
 }
 
 main {
