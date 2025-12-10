@@ -39,7 +39,7 @@ body {
 .brand-block {
   display: flex;
   align-items: center;
-  height: 42 px;
+  height: 42px;
 }
 
 .brand-logo img {
@@ -76,13 +76,14 @@ body {
   font-size: 15px;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  padding: 10px 20px;
-  color: #999;
+  text-decoration: none;
+  padding: 10px 16px;
+  color: #666;
 }
 
 
 nav a:hover {
-  color: #999;
+  color: #000;
 }
 
 /* ---------- Body ---------- */
@@ -109,8 +110,9 @@ h1 {
 
 h2 {
   font-weight: 700;
-  font-size: 28px;
+  font-size: 32px;
   line-height: 1.2;
+  margin-bottom: .5em;
 }
 
 h3 {
