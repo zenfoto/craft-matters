@@ -13,19 +13,45 @@ body {
   background: #fafafa;
 }
 
-/* ---------- Layout ---------- */
-header {
-  background: #fff;
-  padding: 20px 40px;
-  border-bottom: 1px solid #ccc;
+/* ----------------------------- */
+/* Header / Navigation Styling   */
+/* ----------------------------- */
+
+.site-header {
+  height: 100px;
+  background: #e8e8e8;               /* light gray */
+  border-bottom: 5px solid #111;     /* near black */
+  display: flex;
+  align-items: center;
 }
 
-nav a {
-  margin-right: 20px;
+.nav-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Brand text on the left */
+.brand a {
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: #111;
+}
+
+/* Navigation links on the right */
+.main-nav a {
+  margin-left: 30px;
   text-decoration: none;
   color: #333;
+  font-size: 1rem;
   font-weight: 600;
 }
+
 
 nav a:hover {
   color: #000;
