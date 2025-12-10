@@ -70,6 +70,19 @@ body {
   padding-left: 1px;
 }
 
+/* Make entire brand block a clickable transparent link */
+.brand-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;        /* preserves header color behavior */
+}
+
+.brand-link:hover,
+.brand-link:active,
+.brand-link:focus {
+  text-decoration: none;
+}
 
 /* Navigation links on the right */
 .main-nav a {
