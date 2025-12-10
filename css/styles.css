@@ -19,7 +19,7 @@ body {
 
 .site-header {
   height: 80px;
-  background: #e8e8e8;
+  background-color: rgba(0, 0, 0, 0.05);
   border-bottom: 2px solid #777;
   display: flex;
   align-items: center;
@@ -56,15 +56,15 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   color: #696969;
-  line-height: 0.4;
-  margin: 8px 0px 0px 0px;
+  line-height: 0.3;
+  margin: 9px 0px 0px 0px;
 }
 
 .brand-text span {
   font-family: "karmina-sans", sans-serif;
   font-weight: 600;
   font-size: 12px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-transform: uppercase;
   color: #696969;
   padding-left: 1px;
