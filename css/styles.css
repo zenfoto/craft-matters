@@ -45,7 +45,7 @@ body {
   height: 36px;   /* visible size */
   width: auto;
   display: block;
-  padding-right: 8px;
+  padding-right: 10px;
   opacity: 0.85;
   mix-blend-mode: multiply;
 }
@@ -56,7 +56,8 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   color: #696969;
-  margin: 0;
+  line-height: 0.4;
+  margin: 8px 0px 0px 0px;
 }
 
 .brand-text span {
@@ -119,6 +120,7 @@ h2 {
 h3 {
   font-weight: 600;
   font-size: 20px;
+  margin-bottom: .5em;
 }
 
 h4 {
