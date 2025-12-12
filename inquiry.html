@@ -69,10 +69,17 @@
 </footer>
 
  <script>
-  document.getElementById("contact-form").addEventListener("submit", async function(event) {
+document.getElementById("contact-form").addEventListener("submit", async function(event) {
   event.preventDefault();
 
   const form = event.target;
+
+  // Honeypot check
+  if (form.website.value !== "") {
+    console.log("Spam detected — honeypot filled.");
+    return false; // silently reject
+  }
+
   const data = new FormData(form);
 
   const response = await fetch("https://formspree.io/f/movgkdkg", {
