@@ -248,6 +248,9 @@ button:hover {
   background: #333;
 }
 
+.honeypot {
+  display: none;
+}
 
 /* ---------- FAQ ---------- */
 .faq-item {
@@ -291,3 +294,5 @@ button:hover {
 /* Optional tilt */
 .polaroid.tilt-left { transform: rotate(-2deg); }
 .polaroid.tilt-right { transform: rotate(2deg); }
+
+
