@@ -39,7 +39,7 @@
   <h2>Request an Estimate</h2>
   <p>Please provide your contact information and a brief description of your transcription needs: What you need transcribed, how many hours of audio and/or video you have, and how soon you need it. We typically respond within one business day.</p>
 
-  <form id="contact form">
+  <form id="contact-form">
     
     <input type="hidden" name="_subject" value="Craft Matters Inquiry">
     
@@ -54,7 +54,16 @@
     <button type="submit">Submit</button>
   </form>
 
-  <script>
+</main>
+ 
+<footer class="site-footer">
+  <div class="footer-container">
+    <p class="footer-left">All content © 2025 Craft Matters, LLC</p>
+    <p class="footer-right">Phone inquiries welcome: <a href="tel:+15418430257" class="phone-link">(541) 843-0257</a></p>
+  </div>
+</footer>
+
+ <script>
   document.getElementById("contact-form").addEventListener("submit", async function(event) {
   event.preventDefault();
 
@@ -74,15 +83,6 @@
   }
 });
 </script>
-
-</main>
-
-<footer class="site-footer">
-  <div class="footer-container">
-    <p class="footer-left">All content © 2025 Craft Matters, LLC</p>
-    <p class="footer-right">Phone inquiries welcome: <a href="tel:+15418430257" class="phone-link">(541) 843-0257</a></p>
-  </div>
-</footer>
 
 </body>
 </html>
